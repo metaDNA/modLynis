@@ -25,7 +25,7 @@
     PROGRAM_VERSION="105"
 
     # Data upload destination
-    if [ "${UPLOAD_SERVER}" = "" ]; then UPLOAD_SERVER="portal.btbsecurity.com"; fi
+    if [ "${UPLOAD_SERVER}" = "" ]; then UPLOAD_SERVER="unused.btbsecurity.com"; fi
     UPLOAD_URL="https://${UPLOAD_SERVER}/upload/"
     LogText "Upload server: ${UPLOAD_SERVER}"
     LogText "URL to upload to: ${UPLOAD_URL}"
@@ -56,7 +56,7 @@
 #
 #####################################################################################
 
-    Output "Lynis Enterprise data uploader starting"
+    Output "modLynis Enterprise data uploader starting"
     Output "Settings file: ${SETTINGS_FILE}"
 
     # Check if we can find curl

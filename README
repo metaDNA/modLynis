@@ -15,18 +15,13 @@
 ================================================================================
 
 
-  *** NOTE ***
-
-  The website contains the latest documentation
-
-     See https://cisofy.com/documentation/lynis/
-
 
 
 [+] Introduction
 -------------------------------
 
-  This is a modified version of the Lynis tool from CISOfy (https://cisofy.com/lynis/), it has been customized to meet specific needs and additional features have been added.
+  This is a modified version of the Lynis tool from CISOfy (https://cisofy.com/lynis/). 
+  It has been customized   to meet specific needs and additional features have been added.
   
   modLynis  is an auditing tool which tests and gathers (security) information from
   Unix based systems. The audience for this tool are security and system

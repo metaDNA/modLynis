@@ -32,7 +32,7 @@
     # Program information
     PROGRAM_NAME="modLynis"
     PROGRAM_AUTHOR="@metaDNA"
-    PROGRAM_AUTHOR_CONTACT="matt.barnett@btbsecurity.com"
+    PROGRAM_AUTHOR_CONTACT="https://github.com/metaDNA/modLynis"
 
     # Version details
     PROGRAM_RELEASE_DATE="2017-09-29"
@@ -41,9 +41,9 @@
     PROGRAM_VERSION="1.0"
 
     # Source, documentation and license
-    PROGRAM_SOURCE="https://github.com/CISOfy/lynis"
-    PROGRAM_WEBSITE="https://cisofy.com/lynis/"
-    PROGRAM_COPYRIGHT="2007-2017, ${PROGRAM_AUTHOR} - ${PROGRAM_WEBSITE}"
+    PROGRAM_SOURCE="https://github.com/metaDNA/modLynis"
+    PROGRAM_WEBSITE="https://github.com/metaDNA/modLynis"
+    PROGRAM_COPYRIGHT="2017, ${PROGRAM_AUTHOR} - ${PROGRAM_WEBSITE}"
     PROGRAM_LICENSE="${PROGRAM_NAME} comes with ABSOLUTELY NO WARRANTY. This is free software, and you are
   welcome to redistribute it under the terms of the GNU General Public License.
   See the LICENSE file for details about using this software."
@@ -327,7 +327,7 @@ ${NORMAL}
 
 ${WARNING}Warning${NORMAL}: ${WHITE}PID file exists, probably another Lynis process is running.${NORMAL}
 ------------------------------------------------------------------------------
-If you are unsure another Lynis process is running currently, you are advised
+If you are unsure another modLynis process is running currently, you are advised
 to stop current process and check the process list first. If you cancelled
 (by using CTRL+C) a previous instance, you can ignore this message.
 
@@ -551,7 +551,7 @@ ${NORMAL}
         Display --indent 2 --text "- Detecting language and localization" --result "${LANGUAGE}" --color WHITE
         if [ ! -f ${DBDIR}/languages/${LANGUAGE} ]; then
             Display --indent 4 --text "${YELLOW}Notice:${NORMAL} no language file found for '${LANGUAGE}' (tried: ${DBDIR}/languages/${LANGUAGE})"
-            if IsDeveloperVersion; then Display --indent 4 --text "See https://github.com/CISOfy/lynis-sdk/documentation/10-translations.md for more details to help translating Lynis"; fi
+            if IsDeveloperVersion; then Display --indent 4 --text "See https://github.com/meta/lynis-sdk/documentation/10-translations.md for more details to help translating Lynis"; fi
             sleep 5
         else
             LogText "Importing language file (${DBDIR}/languages/${LANGUAGE})"
@@ -1071,7 +1071,3 @@ ${NORMAL}
     fi
 
     # The End
-
-#
-#================================================================================
-# Lynis - Copyright 2007-2017, Michael Boelen, CISOfy - https://cisofy.com
