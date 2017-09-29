@@ -1,17 +1,16 @@
 
 ================================================================================
 
-  Lynis - README
+  modLynis - README
 
 ================================================================================
 
-  Author:                   2007-2013, Michael Boelen
-                            2013-2016, CISOfy
+  Author:                   metaDNA, (forked from Michael Boelen)
   Description:              Security and system auditing tool
-  Web site:                 https://cisofy.com/lynis/
+  Web site:                 TBD
   Development:              May 2007 - Now
   Support policy:           See section 'Support'
-  Documentation:            See web site, README, FAQ and CHANGELOG file
+  Documentation:            See application help
 
 ================================================================================
 
@@ -27,7 +26,9 @@
 [+] Introduction
 -------------------------------
 
-  Lynis is an auditing tool which tests and gathers (security) information from
+  This is a modified version of the Lynis tool from CISOfy (https://cisofy.com/lynis/), it has been customized to meet specific needs and additional features have been added.
+  
+  modLynis  is an auditing tool which tests and gathers (security) information from
   Unix based systems. The audience for this tool are security and system
   auditors, network specialists and system maintainers.
 
@@ -45,12 +46,12 @@
   ========================
    Quick facts
   ========================
-   - Name:      Lynis
+   - Name:      modLynis
    - Type:      audit, security, hardening, forensics tool
    - License:   GPL v3
    - Language:  Shell script
-   - Author:    Michael Boelen, CISOfy
-   - Web site:  https://cisofy.com
+   - Author:    @metaDNA
+   - Web site:  TBD
    - Required permissions: root preferred, not needed
    - Other requirements: write access to /tmp
 
@@ -88,7 +89,7 @@
 [+] Usage
 -------------------------------
 
-  See online documentation for more information about using Lynis.
+  See the help documentation for more information about using Lynis.
 
 
 
@@ -97,8 +98,7 @@
 
   Found an issue, or do you have a great idea? Let us know:
 
-  * GitHub - https://github.com/CISOfy/lynis
-  * E-mail - lynis-dev@cisofy.com
+  * GitHub - https://github.com/metaDNA/modLynis
 
   Contributions are appreciated and can be done via GitHub. See CONTRIBUTIONS.md
   for more information about how to submit them.
@@ -107,39 +107,12 @@
 [+] Support
 -------------------------------
 
-  Lynis is tested on most common operating systems. The documentation (README,
+  modLynis is tested on most common operating systems. The documentation (README,
   FAQ) and the debugging information (/var/log/lynis.log), should cover most
-  questions and problems. Bugs can be reported via GitHub, or sending an e-mail
-  to the lynis-dev address above.
+  questions and problems. Bugs can be reported via GitHub.
 
-  Commercial features and support is available via CISOfy. This includes support
-  for compliance testing, a web-based interface, reporting, and more.
-  
-  For more information see https://cisofy.com/lynis-enterprise/ or use the
-  contact details at https://cisofy.com/contact/
-
-
-
-[+] Upgrade to Lynis Enterprise
--------------------------------
-
-  Individuals and companies which use this software for more than 10 systems, should
-  think about the value of this tool in their job. To support ongoing development on
-  this tool we have a commercial version available. Lynis Enterprise Suite uses
-  Lynis to audit systems, but also provides malware scanning, intrusion detection
-  and has additional guidance. For all features, please see our website:
-  https://cisofy.com/lynis-enterprise/
-
-
-
-[+] Thanks
--------------------------------
-
-  Thanks to the community for using and supporting open source software.
-  Many comments, bugs/patches and questions are the key to success and ongoing
-  motivation in developing tools like this.
 
 
 
 ================================================================================
- Lynis - Copyright 2007-2016, Michael Boelen and CISOfy - https://cisofy.com
+ modLynis - Copyright 2017
